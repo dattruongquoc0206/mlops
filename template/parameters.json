@@ -1,0 +1,59 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "kind": {
+            "value": "Default"
+        },
+        "location": {
+            "value": "eastasia"
+        },
+        "workspaceName": {
+            "value": "mlopsws"
+        },
+        "resourceGroupName": {
+            "value": "mlops"
+        },
+        "sku": {
+            "value": "Basic"
+        },
+        "tagValues": {
+            "value": {}
+        },
+        "keyVaultName": {
+            "value": "mlopsws9334059191"
+        },
+        "storageAccountName": {
+            "value": "mlopsws2612378283"
+        },
+        "appInsightsLogWorkspaceName": {
+            "value": "mlopsws3488733481"
+        },
+        "applicationInsightsName": {
+            "value": "mlopsws7775885219"
+        },
+        "storageAccountOption": {
+            "value": "new"
+        },
+        "storageAccountHnsEnabled": {
+            "value": false
+        },
+        "keyVaultOption": {
+            "value": "new"
+        },
+        "applicationInsightsOption": {
+            "value": "new"
+        },
+        "managedNetwork": {
+            "value": {
+                "isolationMode": "Disabled"
+            }
+        },
+        "identityType": {
+            "value": "systemAssigned"
+        },
+        "publicNetworkAccess": {
+            "value": "Enabled"
+        }
+    }
+}
